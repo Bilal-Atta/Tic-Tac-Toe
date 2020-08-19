@@ -19,6 +19,7 @@ class Board:
         for a in self.state:
             if a == 0:
                 return False
+        print("Tie!")
         return True
 
     def check_winner(self, player):
