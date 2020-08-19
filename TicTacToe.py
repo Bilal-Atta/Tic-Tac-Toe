@@ -93,3 +93,5 @@ if __name__ == '__main__':
             active_player = player_b
         else:
             active_player = player_a
+
+# vielleicht gegen KI?
