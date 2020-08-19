@@ -87,6 +87,7 @@ if __name__ == '__main__':
             continue
         if board.check_winner(active_player):
             print("You have won the game!!!")
+            print("Congratulation!")
             break
         if active_player == player_a:
             active_player = player_b
